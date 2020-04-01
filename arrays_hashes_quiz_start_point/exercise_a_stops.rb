@@ -42,3 +42,7 @@ p stops
 #10 Print out all the stops using a for loop
 
 stops.each { |stop| print stop, " " }
+
+for stop in stops
+    p stop
+end
